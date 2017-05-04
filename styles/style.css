@@ -66,7 +66,9 @@ display: block;
 text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
 .dropdown:hover .dropdown-content {
 display: block;
 }
@@ -134,7 +136,7 @@ padding: 10px;
 }
 .main-article{
 font-size: 2.5em;
-background-image: url("http://www.coloringyard.com/wp-content/uploads/2016/07/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1024x768.jpg");
+background-image: url("../background of main article.jpg ");
 background-position: 20% 0%;
 background-size: 100%;
 background-repeat:no-repeat;
