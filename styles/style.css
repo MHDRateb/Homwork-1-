@@ -105,9 +105,9 @@ width: 80%;
 .articles{
 color:#872E6F ;
 float: left;
-margin: 0 1.5%;
-width:800px;
 
+width:64%;
+border: solid;
 display:flex;
 flex-direction:row;
 justify-content:center;
@@ -193,10 +193,11 @@ text-decoration: underline;
 }
 aside {
 float: right;
-margin: 0 1.5%;
+
 width: 30%;
 color:#872E6F ;
 text-align: center;
+border: solid; 
 }
 .sub-title{
 font-weight: bold;
