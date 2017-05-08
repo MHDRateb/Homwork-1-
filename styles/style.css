@@ -76,10 +76,10 @@ display: block;
 /* titlte */
  
 .website-title{
-font-size:4em;
+font-size:5em;
 text-align:center;
 color:#872E6F;
-opacity: 1;
+
 } 
 
 body{
@@ -100,19 +100,33 @@ left: 0%;
 width: 80%;
 }
 
+/* main*/
+.flex-container{
+    display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:flex-start;
+
+}
+
+.aside{
+    flex:1;
+}
 /* article */
 
 .articles{
 color:#872E6F ;
 float: left;
 
-width:64%;
-border: solid;
+flex: 3;
+
 display:flex;
 flex-direction:row;
 justify-content:center;
 align-items:flex-start;
 flex-wrap: wrap;
+    
+ 
 }
 
 
@@ -123,12 +137,12 @@ flex: 1;
 }
 .articles .article-flex.second{
     flex: 1;
-        
+    
 }
 
 .articles .article-flex.third{
    flex: 1;
-    
+ 
 }
 
 .articles .article-flex.fourth{
@@ -148,8 +162,10 @@ flex: 1 ;
 .articles .article{
 font-size: 1em;
 margin:auto;
-width:250px;
+ width:250px;
 }
+
+
 
 .article-lead ,article p {
 text-align: center;  
@@ -168,20 +184,17 @@ text-decoration: none;
 
 .main-article{
 font-size: 1em;
-background-image: url("../background of main article.jpg ");
-background-position: 20% 0%;
-background-size: 100%;
-background-repeat:no-repeat;
-background-attachment: fixed;
-border-radius: 50%;
-width:250px;
+
+width:100%;
+
+
 
 
 
 
 }
 .main-article .article-title{
-font-size: 5em;
+font-size: 4em;
 text-align: center;
 }
 
@@ -193,11 +206,9 @@ text-decoration: underline;
 }
 aside {
 float: right;
-
-width: 30%;
 color:#872E6F ;
 text-align: center;
-border: solid; 
+
 }
 .sub-title{
 font-weight: bold;
@@ -212,4 +223,41 @@ color: #52356B;
 }
 .site-footer {
 clear: both;
+}
+
+
+@media screen and (max-width: 400px) {
+
+	 .flex-container{
+    display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:flex-start;
+flex-wrap: wrap;
+
+}
+}
+
+
+@media screen and (max-width: 833px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    
+  
+}
+
+@media screen and (max-width: 765px){
+.website-title{
+font-size:3.5em;
+}
+.articles{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+    
+ 
+}
+
 }
