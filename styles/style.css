@@ -13,22 +13,21 @@ border-width: 0px;
 border-style: solid;
 border-radius:50% ;
 }
+
 ul.topnav li a {
 display: block;
 color: white;
 padding: 8px 30px;
 text-decoration: none;
 }
+
 ul.topnav li {
 float: left;
 }
 
-
 ul.topnav li.right {
 float: right;
-    }
-
-
+}
 
 li a, .dropbtn {
 display: inline-block;
@@ -42,8 +41,6 @@ text-decoration: none;
 color: #C4A5DF;
 text-decoration: underline;
 }
-
-
 
 .dropdown-content {
 display: none;
@@ -67,8 +64,8 @@ text-align: center;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    }
+background-color: #f1f1f1;
+}
 .dropdown:hover .dropdown-content {
 display: block;
 }
@@ -79,7 +76,6 @@ display: block;
 font-size:5em;
 text-align:center;
 color:#872E6F;
-
 } 
 
 body{
@@ -92,7 +88,6 @@ img{
 position: relative ;
 left: 25%;
 width: 50%;
-    
 }
 aside .img-aside{
 position: relative ;
@@ -100,72 +95,51 @@ left: 0%;
 width: 80%;
 }
 
-/* main*/
+/* main layout*/
 .flex-container{
-    display:flex;
+display:flex;
 flex-direction:row;
 justify-content:center;
 align-items:flex-start;
-
 }
 
-.aside{
-    flex:1;
-}
 /* article */
 
 .articles{
 color:#872E6F ;
 float: left;
-
 flex: 4;
-
 display:flex;
 flex-direction:row;
 justify-content:center;
 align-items:flex-start;
-flex-wrap: wrap;
-    
- 
+flex-wrap: wrap; 
 }
-
 
 .articles .article-flex.first{
 flex: 1;
-
-  
 }
 .articles .article-flex.second{
-    flex: 1;
-    
+flex: 1;  
 }
-
 .articles .article-flex.third{
-   flex: 1;
- 
+flex: 1;
 }
-
 .articles .article-flex.fourth{
-   flex: 1;
-    
+flex: 1;    
 }
 .articles .article-flex.fifth{
-   flex: 1 ;
-    
+flex: 1 ;    
 }
 .articles .article-flex.sixth{
 flex: 1;
-
 }
 
- 
 .articles .article{
 font-size: 1em;
 margin:auto;
- width:300px;
+width:300px;
 }
-
-
 
 .article-lead ,article p {
 text-align: center;  
@@ -181,23 +155,18 @@ text-decoration: underline;
 text-decoration: none;
 }
 
-
 .main-article{
 font-size: 1em;
-
 width:100%;
-
-
-
-
-
 }
+
 .main-article .article-title{
 font-size: 4em;
 text-align: center;
 }
 
 /*aside*/
+
 .aside-title{
 font-size: 2em;
 font-weight: bold;
@@ -207,14 +176,13 @@ aside {
 float: right;
 color:#872E6F ;
 text-align: center;
-
+flex:1;
 }
 .sub-title{
 font-weight: bold;
 }
 aside ul li {
 text-align: left;
-  
 }
 /* footer */
 .site-footer{
@@ -224,24 +192,21 @@ color: #52356B;
 clear: both;
 }
 
-
+/* media quires*/
 @media screen and (max-width: 400px) {
-
-	 .flex-container{
-    display:flex;
+.flex-container{
+display:flex;
 flex-direction:row;
 justify-content:center;
 align-items:flex-start;
 flex-wrap: wrap;
-
 }
 }
-
 
 @media screen and (max-width: 765px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-    
+ul.topnav li.right,ul.topnav li {
+float: none;
+}
 .website-title{
 font-size:3.5em;
 }
@@ -250,7 +215,5 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-
 }
-
 }
